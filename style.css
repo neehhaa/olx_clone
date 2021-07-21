@@ -9,5 +9,17 @@
 }
 .head1{
     display: flex;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
     
 }
+.cat a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
