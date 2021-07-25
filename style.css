@@ -23,3 +23,35 @@
     margin-left: 10px;
 }
 
+.locate{
+    width: 25%;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.location{
+    border-style: none;
+}
+.mtl-10{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.search{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.find{
+    border-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.sc{
+    float: right;
+    background-color: black;
+    color: white;
+    
+}
