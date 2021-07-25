@@ -9,6 +9,7 @@
 }
 .head1{
     display: flex;
+    align-items: center;
 }
 
 .nav-bar{
@@ -32,13 +33,15 @@
 
 .location{
     border-style: none;
+    padding: 10px;
 }
-.mtl-10{
-    margin-top: 10px;
-    margin-left: 10px;
+.material-icons{
+    padding-top: 10px;
+
 }
+
 .search{
-    width: 50%;
+    width: 45%;
     height: 50px;
     margin-left: 10px;
     border: 2px solid black;
@@ -51,7 +54,29 @@
 }
 .sc{
     float: right;
-    background-color: black;
-    color: white;
+    color: white; 
+    min-width: 48px;
+    height: 48px;
+    display: flex;
+    cursor: pointer;
+    background-color: #002f34;
+    border-radius: 0 4px 4px 0;
+    padding-left: 15px;
+}
+.language{
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.login{
+    padding-left: 15px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.sell{
+    border-radius: 35%;
+    border: 7px solid;
+    margin-left: 15px;
+    border-color: cyan blue rgb(13, 78, 255) yellow;
     
 }
