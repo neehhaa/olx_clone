@@ -8,11 +8,16 @@
     
 }
 .head1{
+    background-color: white;
+    height: 50px;
+    width: 100%;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .nav-bar{
+    height: 150px;
     display: flex;
     align-items: center;
     font-size: 13px;
@@ -87,6 +92,62 @@
 
 
 
+.end-bar{
+    display: flex;
+}
+
+.txt-box{
+    width: 450px;
+}
+.txt-box h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.txt-box p{
+    
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.vr{
+    border: 1px solid rgb(197, 196, 196);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.apps-info{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.app{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -103,12 +164,13 @@ hr{
     display: flex;
     height: 30%;
     width: 100%;
-    margin: 15px;
+    margin: 1px;
     background-color: #ebeeef;
 }
 .ul{
     margin: 25px;
     list-style: none;
+    padding-left: 50px;
 }
 .ul h3{
     font-size: 15px;
@@ -120,6 +182,21 @@ hr{
     font-size: 12px;
     padding-bottom: 5px;
 }
+
+.social-icons{
+    display: flex;
+    
+}
+.social-logo{
+    margin-top: 50px;
+    margin-left: -130px;
+    display: flex;
+    width:28px; 
+    height:28px;
+}
+
+
+
 .foot2{
     padding:20px;
     height: 50px;
