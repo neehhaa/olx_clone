@@ -16,18 +16,6 @@
     position: fixed;
 }
 
-.nav-bar{
-    height: 150px;
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    
-}
-.cat a{
-    text-decoration: none;
-    color: black;
-    margin-left: 10px;
-}
 
 .locate{
     width: 25%;
@@ -89,6 +77,55 @@
 
 
 
+
+.nav-bar{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    
+}
+.cat a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.main{
+    margin-top: -60px;
+}
+.main h2{
+    font-size: 24px;
+    font-weight: 100;
+    margin: 30px;
+    color: #002f34;
+}
+.container{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.load-more{
+    margin-left: 45%;
+    margin-bottom: 3%;
+    height: 48px;
+    width: 130px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+}
 
 
 
